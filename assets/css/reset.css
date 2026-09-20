@@ -1,0 +1,58 @@
+@layer reset {
+  /* 1. Box sizing & structural defaults */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 2. Fluid height, readability, and modern sizing defaults */
+  html {
+    block-size: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+
+  body {
+    min-block-size: 100svh; /* Small Viewport Height prevents mobile layout shifts */
+    text-rendering: optimizeSpeed;
+  }
+
+  /* 3. Accessible media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 4. Smooth fluid-height transitions (New keyword interpolation) */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+      interpolate-size: allow-keywords; /* Allows transitioning from auto height to 0 height smoothly */
+    }
+  }
+
+  /* 5. Modern typographical balance */
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  p, li {
+    text-wrap: pretty;
+  }
+
+  /* 6. Form control typography inheritance */
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  /* 7. Unclutter unstyled clickable items without killing focus styling */
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+}
