@@ -1,0 +1,10 @@
+body {
+  background: var(--body-bg);
+  color: var(--primary);
+  font-size: 1rem;
+  font-family: var(--font-serif);
+}
+
+h1 {
+  color: var(--text-gradient);
+}
