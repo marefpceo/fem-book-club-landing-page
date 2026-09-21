@@ -94,4 +94,10 @@
 --radius-24: 1.5rem         /* 24px */
 --radius-full: 62.4375rem   /* 999px */
 
+/* Theme variables */
+--body-bg: var(--neutral-0);
+
+--text-primary: var(--neutral-700);
+--text-secondary: var(--neutral-900);
+
 }
