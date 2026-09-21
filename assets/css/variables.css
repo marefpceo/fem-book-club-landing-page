@@ -5,8 +5,10 @@
   src:
     local('Inter') 
     url('../fonts/inter/Inter-VariableFont_opsz\,wght.ttf');
+
   font-weight: 400 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -14,8 +16,20 @@
   src:
     local('Inter') 
     url('../fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
+
   font-weight: 400 600;
   font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Martian Mono';
+  src: 
+    local('Martian Mono')
+    url('../fonts/martian-mono/MartianMono-VariableFont_wdth\,wght.ttf');
+
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -32,6 +46,10 @@
 
 --gradient: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
 --text-gradient: linear-gradient(107deg, #FF9A60 11.37%, #062630 61.84%);
+
+/* Fonts */
+--font-mono: 'Martian Mono', ui-monospace, SFMono-Regular, Menlo, 'Liberation Mono', monospace;
+--font-serif: 'Inter', ui-sans-serif, system-ui, 'Arial', sans-serif;
 
 /* Font Size */
 --fs-sm: 0.875rem       /* 14px */
