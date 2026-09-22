@@ -45,7 +45,7 @@
 --light-salmon-500: hsl(22 99% 72%);
 
 --gradient: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
---text-gradient: linear-gradient(107deg, #FF9A60 11.37%, #062630 61.84%);
+--text-gradient: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
 
 /* Fonts */
 --font-mono: 'Martian Mono', ui-monospace, SFMono-Regular, Menlo, 'Liberation Mono', monospace;
