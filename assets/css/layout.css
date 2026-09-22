@@ -1,0 +1,23 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-300) var(--spacing-200) var(--spacing-1000);
+  gap: var(--spacing-600);
+}
+
+.section-grid {
+  display: grid;
+  gap: var(--spacing-800);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+}
