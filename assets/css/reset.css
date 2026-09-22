@@ -40,7 +40,7 @@
     text-wrap: balance;
   }
   
-  p, li {
+  li {
     text-wrap: pretty;
   }
 
