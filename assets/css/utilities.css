@@ -1,0 +1,5 @@
+.gradient-text {
+  background-image: var(--text-gradient);
+  background-clip: text;
+  color: transparent;
+}
