@@ -111,7 +111,10 @@
 --body-bg: var(--neutral-0);
 --main-bg: var(--light-salmon-50);
 
+--border-primary: var(--neutral-900);
+
 --text-primary: var(--neutral-700);
 --text-secondary: var(--neutral-900);
 
+--button-bg: var(--light-salmon-50);
 }
