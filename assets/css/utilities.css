@@ -3,3 +3,8 @@
   background-clip: text;
   color: transparent;
 }
+
+.icon-size {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
