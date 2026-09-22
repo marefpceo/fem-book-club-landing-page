@@ -17,6 +17,13 @@
   gap: var(--spacing-800);
 }
 
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-500);
+  padding: 0 var(--spacing-200);
+}
+
 .content-container {
   display: flex;
   flex-direction: column;
