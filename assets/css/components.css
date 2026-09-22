@@ -1,0 +1,54 @@
+.call-to-action {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+  color: var(--text-secondary);
+  background-color: var(--button-bg);
+  width: 100%;
+  padding: var(--spacing-250) var(--spacing-300);
+
+  border: 0.125rem solid var(--border-primary);
+  border-radius: var(--radius-8);
+
+  font-size: var(--fs-base);
+  font-family: var(--font-mono);
+  font-weight: var(--fw-semi-bold);
+  line-height: var(--line-xl);
+  letter-spacing: var(--tracking-xs);
+
+  & img {
+    width: var(--spacing-300);
+    height: var(--spacing-300);
+  }
+}
+
+.total-testimony {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-150);
+
+  & img {
+    width: 6.875rem;
+    height: 2.5rem;
+  }
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-050);
+  
+  & p {
+    font-family: var(--font-mono);
+    font-size: var(--fs-sm);
+    line-height: var(--line-lg);
+    letter-spacing: var(--tracking-xs);
+  }
+}
+
+.stars-container {
+  display: flex;
+  
+  width: 7.5rem;
+  height: 1.5rem;
+}
