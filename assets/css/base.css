@@ -12,7 +12,8 @@ main {
     url('../images/pattern-glow.svg');
   background-position: 
     0 0, 
-    right 26.625rem bottom 45.8125rem;
+    left 26.625rem top 45.8125rem;
+  background-repeat: no-repeat;
 }
 
 p {
@@ -22,7 +23,6 @@ p {
 }
 
 h1 {
-  background-color: var(--text-gradient);
   color: var(--text-secondary);
   font-family: var(--font-mono);
   font-weight: var(--fw-bold);
@@ -45,4 +45,8 @@ h3 {
   font-weight: var(--fw-semi-bold);
   line-height: var(--line-md);
   letter-spacing: var(--tracking-xs);
+}
+
+img {
+  border-radius: var(--radius-6);
 }
