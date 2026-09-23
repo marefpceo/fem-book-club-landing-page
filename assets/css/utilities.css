@@ -12,3 +12,20 @@
 .tech-stack-icon {
   display: none;
 }
+
+.image-overlay {
+  position: relative;
+  display: inline-block;
+  line-height: var(--line-xl);
+  overflow: visible;
+  width: 7rem;
+
+  & img {
+    position: absolute;
+    right: 0.5rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
