@@ -91,7 +91,6 @@
   display: inherit;
   flex-direction: column;
   gap: var(--spacing-250);
-  
   font-family: var(--font-mono);
   font-size: var(--fs-base);
   font-weight: var(--fw-semi-bold);
@@ -116,3 +115,37 @@
     font-weight: var(--fw-semi-bold);
     line-height: var(--line-xl);
   }
+
+.option-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  padding: var(--spacing-300);
+  border: 0.0625rem solid var(--border-secondary);
+  border-radius: var(--radius-8);
+
+  background-position: left -9.375rem top -2.5px;
+  background-size: auto;
+
+  & hr {
+    border: none;
+    border-top: 0.0625rem solid var(--border-secondary);
+  }
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+  }
+
+  & ul li {
+    display: flex;
+    gap: var(--spacing-150);
+  }
+
+  & ul li img {
+    width: var(--spacing-300);
+    height: var(--spacing-300);
+  }
+}
+

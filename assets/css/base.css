@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font-size: var(--fs-xl);
   font-family: var(--font-mono);
   font-weight: var(--fw-semi-bold);
