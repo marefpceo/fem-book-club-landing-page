@@ -66,3 +66,53 @@
     gap: 0.875rem;
   }
 }
+
+.tech-journey-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+  margin: 0 var(--spacing-200);
+  padding: var(--spacing-800) var(--spacing-200);
+  border-radius: var(--radius-12);
+
+  background-color: var(--main-bg);
+  background-image: 
+    url('../images/pattern-light-bg.svg'),
+    url('../images/pattern-glow.svg');
+
+  & .step-list {
+    display: inherit;
+    flex-direction: column;
+    gap: var(--spacing-250);
+  }
+}
+
+.step-container {
+  display: inherit;
+  flex-direction: column;
+  gap: var(--spacing-250);
+  
+  font-family: var(--font-mono);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-semi-bold);
+  line-height: var(--line-xl);
+
+  & p {
+    font-size: var(--fs-base);
+  }
+}
+
+.step-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 0.125rem solid var(--border-primary);
+    border-radius: var(--radius-4);
+
+    font-family: var(--font-mono);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-semi-bold);
+    line-height: var(--line-xl);
+  }
