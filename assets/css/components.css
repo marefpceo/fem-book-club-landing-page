@@ -1,7 +1,7 @@
 .call-to-action {
   display: flex;
   align-items: center;
-  gap: var(--spacing-200);
+  gap: var(--spacing-150);
   color: var(--text-secondary);
   background-color: var(--button-bg);
   width: 100%;
