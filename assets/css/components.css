@@ -52,3 +52,17 @@
   width: 7.5rem;
   height: 1.5rem;
 }
+
+.checklist {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+  font-size: var(--fs-lg);
+  line-height: var(--line-2xl);
+  letter-spacing: var(--tracking-sm);
+
+  & li {
+    display: flex;
+    gap: 0.875rem;
+  }
+}
