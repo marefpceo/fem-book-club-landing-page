@@ -20,36 +20,31 @@
     text-rendering: optimizeSpeed;
   }
 
-  /* 3. Accessible media defaults */
+  /* Accessible media defaults */
   img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
     height: auto;
   }
 
-  /* 4. Smooth fluid-height transitions (New keyword interpolation) */
+  /* Smooth fluid-height transitions (New keyword interpolation) */
   @media (prefers-reduced-motion: no-preference) {
     html {
       scroll-behavior: smooth;
       interpolate-size: allow-keywords; /* Allows transitioning from auto height to 0 height smoothly */
     }
   }
-
-  /* 5. Modern typographical balance */
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-  }
   
   li {
     text-wrap: pretty;
   }
 
-  /* 6. Form control typography inheritance */
+  /* Form control typography inheritance */
   input, button, textarea, select {
     font: inherit;
   }
 
-  /* 7. Unclutter unstyled clickable items without killing focus styling */
+  /* Unclutter unstyled clickable items without killing focus styling */
   button {
     cursor: pointer;
     background: transparent;
