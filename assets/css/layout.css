@@ -48,3 +48,10 @@
   flex-direction: column;
   gap: var(--spacing-300);
 }
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-800);
+  padding: var(--spacing-600) var(--spacing-200) 0;
+}

@@ -110,12 +110,15 @@
 /* Theme variables */
 --body-bg: var(--neutral-0);
 --main-bg: var(--light-salmon-50);
+--footer-bg: var(--neutral-900);
 
 --border-primary: var(--neutral-900);
 --border-secondary: var(--neutral-200);
+--border-accent: var(--neutral-100);
 
 --text-primary: var(--neutral-700);
 --text-secondary: var(--neutral-900);
+--text-accent: var(--neutral-100);
 
 --button-bg: var(--light-salmon-50);
 }
