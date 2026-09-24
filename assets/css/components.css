@@ -1,5 +1,6 @@
 .call-to-action {
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
   gap: var(--spacing-150);
   color: var(--text-secondary);
@@ -119,13 +120,19 @@
 .option-card {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-300);
+  gap: var(--spacing-400);
   padding: var(--spacing-300);
   border: 0.0625rem solid var(--border-secondary);
   border-radius: var(--radius-8);
 
   background-position: left -9.375rem top -2.5px;
   background-size: auto;
+
+  & .option-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+  }
 
   & hr {
     border: none;
