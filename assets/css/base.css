@@ -56,3 +56,9 @@ img {
 picture img {
   border-radius: var(--radius-12);
 }
+
+q::before,
+q::after {
+  content: open-quote;
+  quotes: none;
+}

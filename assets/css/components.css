@@ -156,3 +156,29 @@
   }
 }
 
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  padding: 0 var(--spacing-200);
+
+  & .testimonial-text {
+    display: inherit;
+    flex-direction: column;
+    gap: var(--spacing-300);
+
+    font-family: var(--font-serif);
+    font-size: var(--fs-lg);
+    line-height: var(--line-2xl);
+    letter-spacing: var(--tracking-sm);
+  }
+
+  & .testimonial-text q {
+    font-family: var(--font-mono);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-xl);
+    line-height: var(--line-md);
+    letter-spacing: var(--tracking-xs);
+    text-wrap: pretty;
+  }
+}
