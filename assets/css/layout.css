@@ -17,12 +17,6 @@
   flex-direction: column;
   gap: var(--spacing-300);
   margin: 0 var(--spacing-200);
-
-  & .options-container {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-300);
-  }
 }
 
 .section-grid {
@@ -43,7 +37,9 @@
   gap: var(--spacing-400);
 }
 
-.text-container {
+.options-container,
+.text-container,
+.cta-container {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-300);
