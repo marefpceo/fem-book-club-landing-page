@@ -32,7 +32,6 @@ h1 {
   font-size: clamp(2.375rem, calc(0.944rem + 6.107vw), 3.875rem);
   line-height: 1.2;
   letter-spacing: var(--tracking-xxs);
-  max-width: 35.625rem;
 }
 
 h2 {

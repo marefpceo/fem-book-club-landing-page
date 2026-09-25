@@ -1,3 +1,11 @@
+.text-preset-2 {
+  font-family: var(--font-mono);
+  font-weight: var(--fw-semi-bold);
+  font-size: clamp(var(--fs-3xl), calc(1.171rem + 4.071vw), var(--fs-5xl));
+  line-height: var(--line-xl);
+  letter-spacing: var(--tracking-xxs);
+}
+
 .gradient-text {
   background-image: var(--text-gradient);
   background-clip: text;
@@ -28,11 +36,12 @@
 
   & img {
     position: absolute;
-    right: 0.5rem;
+    right: 0.4rem;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    overflow: visible;
   }
 }
 
@@ -44,3 +53,9 @@
   letter-spacing: var(--tracking-xs);
   line-height: var(--line-xl);
 }
+
+.contain-heading {
+  max-width: 35.625rem;
+  text-wrap: balance;
+}
+
