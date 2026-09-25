@@ -6,7 +6,7 @@
   gap: var(--spacing-150);
   color: var(--text-secondary);
   background-color: var(--button-bg);
-  width: 100%;
+  max-width: 23.75rem;
   padding: var(--spacing-250) var(--spacing-300);
 
   border: 0.125rem solid var(--border-primary);
