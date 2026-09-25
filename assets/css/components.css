@@ -190,8 +190,31 @@
   }
 }
 
-.footer-content {
+.footer-body {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-500);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200);
+  padding: var(--spacing-300) var(--spacing-400);
+
+  & p {
+    font-family: var(--font-mono);
+    font-size: var(--fs-sm);
+    line-height: var(--line-lg);
+    letter-spacing: var(--tracking-xs);
+    }
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-300);
+  width: 100%;
 }
