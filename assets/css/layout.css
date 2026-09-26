@@ -3,7 +3,6 @@
   flex-direction: column;
   margin: 0 auto;
   gap: var(--spacing-800);
-  max-width: 90rem;
 }
 
 .main-section {
@@ -11,10 +10,11 @@
   flex-direction: column;
   padding: var(--spacing-300) var(--spacing-200) var(--spacing-1000);
   gap: var(--spacing-600);
+  margin: 0 auto;
 
   @media (min-width: 48rem) {
     padding: var(--spacing-400) var(--spacing-400) var(--spacing-1000);
-    gap: var(--spacing-800);
+    gap: var(--spacing-1000);
   }
 }
 
@@ -34,6 +34,11 @@
 .section-grid {
   display: grid;
   gap: var(--spacing-800);
+
+  @media (min-width: 64rem) {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
 }
 
 .section-wrapper {
@@ -46,7 +51,12 @@
 .content-container {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: var(--spacing-400);
+
+  @media (min-width: 64rem) {
+    
+  }
 }
 
 .options-container,

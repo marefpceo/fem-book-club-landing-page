@@ -5,20 +5,6 @@ body {
   font-family: var(--font-serif);
 }
 
-main {
-  background-color: var(--main-bg);
-  background-image: 
-    url('../images/pattern-light-bg.svg'),
-    url('../images/pattern-glow.svg');
-  background-position: 
-    0 0, 
-    left 26.625rem top 45.8125rem;
-  background-repeat: no-repeat;
-  background-size: 
-    1440px 820px, 
-    42.75rem 42.75rem;
-}
-
 p {
   font-size: var(--fs-lg);
   line-height: 1.4;
