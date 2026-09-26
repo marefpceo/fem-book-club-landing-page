@@ -60,8 +60,9 @@
 }
 
 .contain-width {
-  max-width: 90rem;
-  margin: 0 auto;
+  @media (min-width: 64rem) {
+    max-width: 90rem;
+  }
 }
 
 .main-section-bg {
