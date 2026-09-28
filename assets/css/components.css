@@ -74,6 +74,10 @@
     display: flex;
     gap: 0.875rem;
   }
+
+  @media (min-width: 64rem) {
+    gap: var(--spacing-300);
+  }
 }
 
 .tech-journey-card {

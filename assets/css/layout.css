@@ -50,6 +50,13 @@
   @media (min-width: 48rem) {
     padding: 0 var(--spacing-400);
   }
+
+  @media (min-width: 64rem) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--spacing-1000);
+    margin: 0 auto;
+  }
 }
 
 .content-container {
@@ -88,6 +95,12 @@
   @media (min-width: 48rem) {
     flex-wrap: wrap;
     justify-content: start;
+  }
+}
+
+.text-container {
+  @media (min-width: 64rem) {
+    gap: 2.125rem;
   }
 }
 
