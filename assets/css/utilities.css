@@ -108,3 +108,21 @@
     42.75rem 42.75rem;
 }
 
+.tech-logo-position {
+  display: none;
+  position: absolute;
+  
+  @media (min-width: 48rem) {
+    display: inline-block;
+    top: 46.4375rem;
+    left: 35.375rem;
+    z-index: 5;
+  }
+
+  @media (min-width: 64rem) {
+    display: inline-block;
+    top: 21.9375rem;
+    left: 33.125rem;
+    z-index: 5;
+  }
+}
