@@ -96,6 +96,7 @@
   }
 
   @media (min-width: 48rem) {
+    margin: 0 var(--spacing-400);
     gap: var(--spacing-600);
     padding: var(--spacing-1000) var(--spacing-400);
 
