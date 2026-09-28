@@ -108,6 +108,32 @@
       gap: var(--spacing-500);
     }
   }
+
+  @media (min-width: 64rem) {
+    align-items: center;
+    gap: var(--spacing-800);
+    padding: var(--spacing-800) 0;
+    margin: 0 auto;
+    width: 100%;
+
+    & h2 {
+      max-width: 32rem;
+      text-align: center;
+    }
+
+    & .step-list {
+      flex-direction: row;
+      justify-content: space-evenly;
+       max-width: 65.625rem;
+       gap: var(--spacing-600);
+    }
+
+    & .step {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
 }
 
 .step-container {
@@ -121,6 +147,10 @@
 
   & p {
     font-size: var(--fs-base);
+  }
+
+  @media (min-width: 64rem) {
+    width: 14.15625rem;
   }
 }
 

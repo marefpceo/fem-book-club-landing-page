@@ -25,6 +25,10 @@
 
 .hide-icon {
   display: none;
+
+  @media (min-width: 64rem) {
+    display: inline-block;
+  }
 }
 
 .image-overlay {
