@@ -115,6 +115,7 @@
 --border-primary: var(--neutral-900);
 --border-secondary: var(--neutral-200);
 --border-accent: var(--neutral-100);
+--footer-border: var(--neutral-700);
 
 --text-primary: var(--neutral-700);
 --text-secondary: var(--neutral-900);
