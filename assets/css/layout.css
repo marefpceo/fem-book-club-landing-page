@@ -29,6 +29,17 @@
     gap: var(--spacing-500);
     padding: 0 var(--spacing-400);
   }
+
+  @media (min-width: 64rem) {
+    gap: var(--spacing-800);
+    padding: 0;
+    margin: 0 auto;
+    max-width: 60.625rem;
+
+    & h2 {
+      text-align: center;
+    }
+  }
 }
 
 .section-grid {
@@ -91,12 +102,17 @@
   flex-direction: row;
   flex-wrap: balance;
   justify-content: center;
+  align-items: center;
 
   width: 100%;
 
   @media (min-width: 48rem) {
     flex-wrap: wrap;
     justify-content: start;
+  }
+
+  @media (min-width: 64rem) {
+    gap: var(--spacing-300);
   }
 }
 

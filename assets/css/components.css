@@ -176,7 +176,7 @@
   padding: var(--spacing-300);
   border: 0.0625rem solid var(--border-secondary);
   border-radius: var(--radius-8);
-  width: 340px;
+  width: 21.25rem;
 
   background-position: left -9.375rem top -2.5px;
   background-size: auto;
@@ -206,6 +206,13 @@
   & ul li img {
     width: var(--spacing-300);
     height: var(--spacing-300);
+  }
+
+  @media (min-width: 64rem) {
+    width: 17.875rem;
+    height: 22.375rem;
+
+    
   }
 }
 
