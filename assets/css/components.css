@@ -212,7 +212,7 @@
     width: 17.875rem;
     height: 22.375rem;
 
-    
+
   }
 }
 
@@ -254,6 +254,16 @@
       font-size: var(--fs-3xl);
       line-height: var(--line-xl);
     }
+  }
+
+  @media (min-width: 64rem) {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: var(--spacing-400);
+    margin: 0 auto;
+    max-width: 60.625rem;
+    text-align: center;
   }
 }
 
