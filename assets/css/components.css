@@ -23,6 +23,16 @@
     height: var(--spacing-300);
   }
 
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 0.125rem solid var(--border-primary);
+    outline-offset: 0.125rem;
+    background-image: var(--gradient);
+  }
+
   @media (min-width: 90rem) {
     &:hover {
       cursor: pointer;
@@ -36,6 +46,12 @@
   background-color: transparent;
   border-color: var(--border-accent);
   width: 100%;
+
+  &:focus-visible {
+    outline: 0.125rem solid var(--border-accent);
+    outline-offset: 0.125rem;
+    background-image: var(--gradient-alt);
+  }
 
   @media (min-width: 90rem) {
     &:hover {
