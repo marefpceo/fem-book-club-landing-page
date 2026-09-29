@@ -56,6 +56,18 @@
     z-index: 1;
     overflow: visible;
   }
+
+  @media (min-width: 48rem) {
+    & img {
+      right: 0rem;
+    }
+  }
+
+  @media (min-width: 90rem) {
+    & img {
+      left: 1rem;
+    }
+  }
 }
 
 .text-semi-bold {
