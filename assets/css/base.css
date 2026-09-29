@@ -59,6 +59,7 @@ footer {
   background-image: url('../images/pattern-dark-bg.svg');
   background-position: 0 0;
   background-repeat: no-repeat;
+  background-size: cover;
 
   border-top-left-radius: var(--radius-16);
   border-top-right-radius: var(--radius-16);

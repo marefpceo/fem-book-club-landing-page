@@ -19,7 +19,7 @@
 }
 
 .option-card.bg-glow {
-  @media (min-width: 64rem) {
+  @media (min-width: 90rem) {
     padding: var(--spacing-500) var(--spacing-300);
     gap: var(--spacing-400);
     width: 21.875rem;
@@ -35,7 +35,7 @@
 .hide-icon {
   display: none;
 
-  @media (min-width: 64rem) {
+  @media (min-width: 90rem) {
     display: inline-block;
   }
 }
@@ -77,13 +77,13 @@
 }
 
 .contain-width {
-  @media (min-width: 64rem) {
+  @media (min-width: 90rem) {
     max-width: 73.125rem;
   }
 }
 
 .contain-image img {
-  @media (min-width: 64rem) {
+  @media (min-width: 90rem) {
     max-width: 35rem;
     height: 32.5rem;
     object-fit: cover;
@@ -91,7 +91,7 @@
 }
 
 .row-reverse {
-  @media (min-width: 64rem) {
+  @media (min-width: 90rem) {
     flex-direction: row-reverse;
   }
 }
@@ -103,11 +103,24 @@
     url('../images/pattern-glow.svg');
   background-position: 
     0 0, 
-    left 26.625rem top 45.8125rem;
+    26.625rem 45.8125rem;
   background-repeat: no-repeat;
   background-size: 
-    1440px 820px, 
+    auto, 
     42.75rem 42.75rem;
+
+  @media (min-width: 48rem) {
+    background-repeat: repeat, no-repeat;
+    background-position: 
+      0 0, 
+      26.625rem 73.3125rem;
+  }
+
+  @media (min-width: 90rem) {
+    background-position: 
+      0 0, 
+      76.75rem 23.5rem;
+  }
 }
 
 .tech-logo-position {
@@ -121,7 +134,7 @@
     z-index: 5;
   }
 
-  @media (min-width: 64rem) {
+  @media (min-width: 90rem) {
     display: inline-block;
     top: 21.9375rem;
     left: 33.125rem;
