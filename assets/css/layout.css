@@ -3,6 +3,14 @@
   flex-direction: column;
   margin: 0 auto;
   gap: var(--spacing-800);
+
+  @media (min-width: 48rem) {
+    gap: var(--spacing-1000);
+  }
+
+  @media (min-width: 64rem) {
+    gap: 7.5rem;
+  }
 }
 
 .main-section {

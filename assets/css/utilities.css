@@ -20,6 +20,8 @@
 
 .option-card.bg-glow {
   @media (min-width: 64rem) {
+    padding: var(--spacing-500) var(--spacing-300);
+    gap: var(--spacing-400);
     width: 21.875rem;
     height: 24.375rem;
   }
