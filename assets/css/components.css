@@ -22,6 +22,13 @@
     width: var(--spacing-300);
     height: var(--spacing-300);
   }
+
+  @media (min-width: 64rem) {
+    &:hover {
+      cursor: pointer;
+      background-image: var(--gradient);
+    }
+  }
 }
 
 .call-to-action-alt {
@@ -29,6 +36,12 @@
   background-color: transparent;
   border-color: var(--border-accent);
   width: 100%;
+
+  @media (min-width: 64rem) {
+    &:hover {
+      background-image: var(--gradient-alt);
+    }
+  }
 }
 
 .total-testimony {
@@ -310,4 +323,11 @@
   display: flex;
   justify-content: center;
   gap: var(--spacing-300);
+
+  @media (min-width: 64rem) {
+    & img:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
 }

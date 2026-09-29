@@ -34,17 +34,18 @@
 
 :root {
 /* Colors */
---neutral-0: hsl(0 0% 100%);
+--neutral-0: hsl(0, 0%, 100%);
 --neutral-100: hsl(17 41% 97%);
 --neutral-200: hsl(17 12% 89%);
 --neutral-700: hsl(195 23% 28%);
---neutral-900: hsl(194 78% 11%);
+--neutral-900: hsl(194, 79%, 11%);
 
 --light-salmon-50: hsl(23 100% 97%);
 --light-salmon-100: hsl(22 100% 91%);
 --light-salmon-500: hsl(22 99% 72%);
 
 --gradient: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+--gradient-alt: linear-gradient(90deg, #FFFFFF45 0%, #062832 100%);
 --text-gradient: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
 
 /* Fonts */
