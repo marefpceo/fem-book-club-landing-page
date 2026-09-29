@@ -13,11 +13,7 @@ This is a solution to the [Tech book club landing page challenge on Frontend Men
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,9 +24,9 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-<!-- ### Screenshot
+### Screenshot
 
-![](./screenshot.jpg) -->
+![screenshot](./assets/images/screenshot.png)
 
 ### Links
 
@@ -49,22 +45,20 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Completing this project, I learned how important it is to determine the best layout for scaling responsive sites. On previous builds, I used a lot of Flexbox when creating my overall layout, but found that I should start using CSS Grid more. From what I have experienced, it seems that CSS Grid would be a better option for sites such as this because it allows greater flexibility when increasing screen sizes for some use cases.  
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will continue to build on my previous experiences and techniques. Most importantly, I still have more work to do when it comes to planning out how to accomplish the design. Getting back in the habit of thorough planning prior to writing any code will be focused on.
 
 ### Useful resources
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - This site is used for general referencing.
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) -  I used this site as a guide for writing and formatting commits.
 
 ## Author
 
 - Website - [Lamar](https://www.lamar-stevens.com)
 - Frontend Mentor - [@marefpceo](https://www.frontendmentor.io/profile/marefpceo)
 - Twitter - [@stevens14704](https://www.twitter.com/stevens14704)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
