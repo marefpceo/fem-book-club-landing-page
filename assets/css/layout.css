@@ -105,7 +105,7 @@
 
 .options-container {
   flex-direction: row;
-  flex-wrap: balance;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
