@@ -49,7 +49,7 @@ Completing this project, I learned how important it is to determine the best lay
 
 ### Continued development
 
-I will continue to build on my previous experiences and techniques. Most importantly, I still have more work to do when it comes to planning out how to accomplish the design. Getting back in the habit of thorough planning prior to writing any code will be focused on.
+I will continue to build on my previous experiences and techniques. Most importantly, I still have more work to do when it comes to planning out how to accomplish the design. Getting back in the habit of thorough planning prior to writing any code will be focused on. In doing so, I plan to use CSS Grid for major layout areas unless it makes more sense to use Flexbox. 
 
 ### Useful resources
 
